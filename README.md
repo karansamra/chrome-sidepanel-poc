@@ -1,4 +1,4 @@
-# Guardian Vets Calls Queue Extension PoC
+# Calls Queue Extension PoC
 
 A Proof of Concept Chrome Extension demonstrating a veterinary calls queue management system with browser notification alerts and side panel integration.
 
@@ -16,7 +16,7 @@ A Proof of Concept Chrome Extension demonstrating a veterinary calls queue manag
 ### Incoming Call Simulation
 
 1. **Extension Icon Click**: Opens side panel directly
-2. **Automatic Notifications**: Every 10 seconds, a browser notification appears showing "Guardian Vets - Incoming Call"
+2. **Automatic Notifications**: Every 10 seconds, a browser notification appears showing "Incoming Call"
 3. **Take Call Button**: Click notification or "Take Call" button to open side panel and stop notification cycle
 4. **Ignore Button**: Dismiss notification without opening side panel
 5. **Smart Detection**: When side panel is open, incoming call notifications are completely paused
@@ -25,8 +25,8 @@ A Proof of Concept Chrome Extension demonstrating a veterinary calls queue manag
 
 ### Extension Components
 
-- **Browser Notifications**: Native Chrome notifications with Guardian Vets branding and action buttons
-- **Side Panel**: Shows Guardian Vets call queue with client information and priorities
+- **Browser Notifications**: Native Chrome notifications with branding and action buttons
+- **Side Panel**: Shows call queue with client information and priorities
 - **Background Script**: Manages automatic notification timing and communication between components
 
 ## Setup
@@ -94,7 +94,7 @@ The extension will be built into the `dist` folder, which can be loaded into Chr
 
 ### Popup States
 
-- **Normal State**: Shows "Guardian Vets Calls Queue" with "Open Call Queue" button
+- **Normal State**: Shows "Calls Queue" with "Open Call Queue" button
 - **Incoming Call State**: Shows animated phone icon with green answer button
 
 ### Side Panel Communication
